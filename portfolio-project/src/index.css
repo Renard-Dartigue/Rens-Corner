@@ -14,26 +14,81 @@
   -webkit-text-size-adjust: 100%;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #ff0000;
 }
 
-body {
-  margin: 0;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+header{
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0px;
+  background-image: url(../src/assets/02-hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #9CD9D9;
+}
+
+.background-tint {
+  background-color: #78d685;
+  background-blend-mode: multiply;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  width: 350px; 
+  height: 50px; 
+  margin:3px; 
+  margin-left: 5%;
+  color: #ffffff;
+  font-size: 200%;
+}
+
+.title {
+  filter: drop-shadow(0 0 5px #646cffaa);
+}
+
+nav{
+  display: flex;
+  filter: drop-shadow(0 0 5px #104218aa);
+} 
+
+nav ul{
+  display:flex;
+  justify-content: space-evenly;
+  min-width: 500px;
+  list-style: none;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+nav a{
+  color:#ffffff;
+  font-weight: 100;
+  text-decoration: none;
+  border-bottom: 3px solid;
+}
+
+/* nav bar underline style !DO NOT TOUCH REN!*/
+nav a:visited{
+  color: #9CD9D9;
 }
 
 button {

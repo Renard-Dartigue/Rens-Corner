@@ -1,15 +1,16 @@
 export default function AboutMe() {
     return (
       <div>
-        <h1>About Me</h1>
-        <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-        </p>
+        <h2>About Me</h2>
+        <p> Hello! My name is Renard, but most people just call me Ren. 
+            Welcome to my website! A few thing about myself. I'm a guy in his 
+            mid-twenties who loves drawing and animation, mostly drawing these 
+            days due to lack of time to animate. I graduated UCF in 2022 with a
+            bachlor degree in experimental animation, basically a fusion between 
+            illustration and film media. It includes everything from traditional
+            painting to video game development. 
+            <p>Here, I've compiled portfolio as well as links to my social media. </p>
+            </p>
       </div>
     );
   }

@@ -1,19 +1,41 @@
 export default function Portfolio() {
     return (
-      <div>
-        <h1>Portfolio</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
-        </p>
+      <div class="container">
+        <a class="flexitem workOne card-column" href="file:///G:/ProBootcamp/UCF/projects/Apperitivo/index.html">
+          <div class="code-card">
+              <h4>Apperitivo</h4>
+              <p>Dish Search</p>
+          </div>
+        </a>
+
+        <a class="flexitem workTwo card-column" href="box">
+          <div class="code-card">
+              <h4>An App Called Quest</h4>
+              <p>Hike Planner</p>
+          </div>
+        </a>
+
+        <a class="flexitem workThree card-column" href="box">
+          <div class="code-card">
+            <h4>Calculator</h4>
+            <p>React</p>
+        </div>
+        </a>
+
+        <a class="flexitem workFour card-column" href="box">
+          <div class="code-card" >
+            <h4>Pastel Puzzels</h4>
+            <p>MERN </p>
+        </div>
+        </a>
+
+        <a class="flexitem workFive card-column" href="box">
+          <div class="code-card">
+            <h4>Run Buddy</h4>
+            <p>HTML</p>
+        </div>
+        </a>
+
       </div>
     );
 }

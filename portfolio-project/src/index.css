@@ -18,6 +18,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+
+
 }
 
 a {
@@ -121,4 +123,149 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+
+/* MAIN=======================================================================================================
+============================================================================================================== */
+
+/*  */
+section{
+  display: flex;
+  flex-direction: row;
+  padding: 2px 2px;
+  padding-right: 15px;
+
+}
+
+.about-me{
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 70%;
+  flex-wrap: wrap;
+}
+
+p{
+  margin-top:15px;
+  margin-bottom: 15px;
+  color: #435773;
+  padding-right: 10%;
+
+}
+
+
+
+
+h3{
+  justify-content: left;
+  flex-basis: 20%;
+  border-right: 3px solid #445877;
+  display: block;
+  text-align: right;
+  font-size: 200% ;
+  margin-right: 30px;
+  margin: 1% 2%;
+  padding-right: 15px;
+  line-height: 1.1;
+  color:#435773;
+
+}
+
+
+/* img styles================================================ */
+.container{
+  display:flex;
+  flex-direction:row;
+  flex: 0 0 70%;
+  flex-wrap: wrap;
+
+}
+
+
+.card-column {
+  flex: 1 0 100%;
+  padding: 1.5rem;
+  transition: flex-basis 500ms linear;
+  margin-bottom: 1.5rem;
+}
+
+
+
+.code-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  padding: 20px;
+  margin-left: -25px;
+  background-color: #9CD9D9;
+  color: #30353D;
+  outline: 2px dashed var(--gin);
+  outline-offset: -2px;
+  transition: all 0.5s ease-in-out;
+}
+
+h4{
+  font-size: 23px;
+}
+
+
+.workOne{
+  background-image: url("./assets/Apperitevo-screen.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workTwo{
+  background-image: url("./assets/An-App-Called-Quest-cap.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workThree{
+  background-image: url("./assets/02-portfolio-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workFour{
+  background-image: url("./assets/02-portfolio-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workFive{
+  background-image: url("./assets/02-run-buddy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexitem {
+  max-height: 160px;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-basis: calc(50% - 0em);
+  border-style: solid;
+  border-color: #9CD9D9;
+  text-decoration: none;
+  /* background-size: 150%; */
+  
+}
+
+
+.box{
+  position: relative;
+}
+
+
+
+
+article{
+  display: flex;
+  flex-direction: row;
+  padding: 2px 2px;
+  padding-right: 15px;
+
 }

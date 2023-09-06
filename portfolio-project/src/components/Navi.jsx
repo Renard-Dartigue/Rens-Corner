@@ -52,6 +52,12 @@ function Navis() {
                 </ul>                   
             </nav>
             </header>
+            <project>
+
+            </project>
+            <footer>
+                
+            </footer>
         </>
     )
 }
